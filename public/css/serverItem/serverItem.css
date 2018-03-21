@@ -1,0 +1,122 @@
+#serverItem {
+  width: 100%;
+  position: relative;
+  height: 20000;
+  background: #fbf8f8;
+}
+#serverItem .wrapper-header {
+  width: 100%;
+  height: 70px;
+  background: #fff;
+}
+#serverItem .wrapper-header .header-content {
+  margin: 0 auto;
+  width: 87%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#serverItem .wrapper-header .header-content .header-logo {
+  width: 280px;
+  height: 40px;
+}
+#serverItem .wrapper-header .header-content .header-nav {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 100%;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-address {
+  display: flex;
+  flex: 1;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-address a img {
+  display: block;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-address .address-city {
+  font-size: 17px;
+  color: #121212;
+  font-weigh: bold;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-address .switch-city {
+  font-size: 17px;
+  color: #121212;
+  font-weigh: bold;
+  padding-left: 5px;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu {
+  flex: 3;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #121212;
+  transition: color 0.5s;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item ahover {
+  color: #f00;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .shouye {
+  color: #f00;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .login {
+  color: #fff;
+  background: #f00;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+#serverItem .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .loginhover {
+  color: #fff;
+}
+#serverItem .serverItem-content {
+  width: 100%;
+  background: #fff;
+  margin-top: 10px;
+}
+#serverItem .serverItem-content .htit {
+  width: 90%;
+  height: 140px;
+  margin: 0 auto;
+  display: flex;
+}
+#serverItem .serverItem-content .htit .htit-left {
+  flex: 1;
+  height: 100%;
+  box-sizing: border-box;
+  line-height: 170px;
+  font-size: 14px;
+}
+#serverItem .serverItem-content .htit .htit-left .business:nth-child(1) {
+  font-size: 36px;
+  font-weight: 700;
+}
+#serverItem .serverItem-content .htit .htit-left .business:nth-child(2) {
+  margin-left: 10px;
+  color: #929292;
+}
+#serverItem .serverItem-content .htit .htit-left .business:nth-child(3) {
+  color: #121212;
+}
+#serverItem .serverItem-content .htit .htit-left .subscribe:first-child {
+  margin-left: 10px;
+  color: #929292;
+}
+#serverItem .serverItem-content .htit .htit-left .subscribe:last-child {
+  color: #e84b47;
+}
+#serverItem .serverItem-content .htit .htit-right {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#serverItem .serverItem-content .htit .htit-right div {
+  flex: 1;
+}
