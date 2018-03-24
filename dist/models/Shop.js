@@ -9,4 +9,4 @@ var shopSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('shop', shopSchema);
-//# sourceMappingURL=shop.js.map
+//# sourceMappingURL=Shop.js.map

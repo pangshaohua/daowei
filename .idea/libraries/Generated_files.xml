@@ -2,48 +2,54 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/dist/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/Service.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/Comment.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/Comment.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/Detail.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/Detail.js" />
+        <item url="file://$PROJECT_DIR$/dist/tools/db.js" />
         <item url="file://$PROJECT_DIR$/dist/models/index.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/tools/db.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/Comment.js" />
+        <item url="file://$PROJECT_DIR$/dist/index.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/Item.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/Detail.js" />
+        <item url="file://$PROJECT_DIR$/dist/public/js/jquery-1.10.1.js" />
+        <item url="file://$PROJECT_DIR$/dist/public/js/template-web.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/index.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/Item.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/Service.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/Shop.js" />
+        <item url="file://$PROJECT_DIR$/dist/public/js/moment.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/routes/index.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/Shop.js" />
-        <item url="file://$PROJECT_DIR$/dist/models/.js" />
-        <item url="file://$PROJECT_DIR$/dist/tools/db.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/Item.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/Shop.js" />
         <item url="file://$PROJECT_DIR$/dist/routes/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/models/.js" />
         <item url="file://$PROJECT_DIR$/dist/dist/models/Service.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/dist/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/Service.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/Comment.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/Comment.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/Detail.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/Detail.js" />
+      <root url="file://$PROJECT_DIR$/dist/tools/db.js" />
       <root url="file://$PROJECT_DIR$/dist/models/index.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/tools/db.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/Comment.js" />
+      <root url="file://$PROJECT_DIR$/dist/index.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/Item.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/Detail.js" />
+      <root url="file://$PROJECT_DIR$/dist/public/js/jquery-1.10.1.js" />
+      <root url="file://$PROJECT_DIR$/dist/public/js/template-web.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/index.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/Item.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/Service.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/Shop.js" />
+      <root url="file://$PROJECT_DIR$/dist/public/js/moment.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/routes/index.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/Shop.js" />
-      <root url="file://$PROJECT_DIR$/dist/models/.js" />
-      <root url="file://$PROJECT_DIR$/dist/tools/db.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/Item.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/Shop.js" />
       <root url="file://$PROJECT_DIR$/dist/routes/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/models/.js" />
       <root url="file://$PROJECT_DIR$/dist/dist/models/Service.js" />
     </CLASSES>
     <SOURCES />

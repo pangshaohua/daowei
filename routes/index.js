@@ -1,8 +1,8 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express')
+var router = express.Router()
 
-const ShopModel = require("../models/Shop");
-const ServiceModel = require("../models/Service");
+const ShopModel = require("../models/Shop")
+const ServiceModel = require("../models/Service")
 const ItemModel = require('../models/Item')
 const CommentModel = require('../models/Comment')
 const DetailModel = require('../models/Detail')
@@ -52,4 +52,4 @@ router.get('/getDetail', function (req, res) {
   })
 })
 
-module.exports = router;
+module.exports = router

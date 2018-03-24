@@ -8,6 +8,11 @@
   width: 100%;
   height: 70px;
   background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 #sticky-wrapper .wrapper-header .header-content {
   margin: 0 auto;
@@ -78,6 +83,7 @@
 #sticky-wrapper .wrapper-content {
   width: 100%;
   position: relative;
+  padding-top: 71px;
 }
 #sticky-wrapper .wrapper-content .swiper-container {
   position: relative;
@@ -140,13 +146,23 @@
   font-weight: bold;
   margin-right: 5px;
 }
-#sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item img {
+#sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item .firstImg {
   width: 6px;
   height: 11px;
   position: absolute;
   right: 35px;
   top: 18px;
   display: block;
+}
+#sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item .secondImg {
+  width: 6px;
+  height: 11px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
 }
 #sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item .nextMenu {
   width: 160px;
@@ -174,6 +190,12 @@
 }
 #sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item:hover {
   background: #60646d;
+}
+#sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item:hover .firstImg {
+  display: none;
+}
+#sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item:hover .secondImg {
+  display: block;
 }
 #sticky-wrapper .wrapper-content .swiper-container .menu-nav .nav-list .nav-item:hover .nextMenu {
   width: 160px;

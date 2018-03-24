@@ -5,6 +5,9 @@
   <title>服务项目</title>
   <link rel="stylesheet" href="./css/serverItem/serverItem.css">
   <link rel="stylesheet" href="./css/reset/reset.css">
+  <script type="text/javascript" src="./js/jquery-1.10.1.js"></script>
+  <script type="text/javascript" src="./js/template-web.js"></script>
+  <script type="text/javascript" src="./js/moment.js"></script>
 </head>
 <body>
   <div id="serverItem">
@@ -51,33 +54,322 @@
     </div>
     <div class="serverItem-content">
       <div class="htit">
-        <div class="htit-left">
+
+      </div>
+      <div class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">服务项目</li>
+          <li class="nav-item">商家介绍</li>
+          <li class="nav-item">用户评论</li>
+        </ul>
+      </div>
+      </div>
+    <div class="service-content">
+      <div class="content-detail">
+        <div class="service-left">
+          <div class="titleText">
+            <div class="service-title">
+              <span class="title-container">服务项目</span>
+            </div>
+          </div>
+          <div class="family">
+
+          </div>
+          <div class="shopInfo">
+            <div class="titleText">
+              <div class="service-title">
+                <span class="title-container">商家简介</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="userComment">
+            <div class="titleText">
+              <div class="service-title">
+                <span class="title-container">用户评论</span>
+                <span class="commentCount">(10391)条评论</span>
+              </div>
+            </div>
+            <div class="commentDiv">
+
+
+            </div>
+          </div>
+          <div class="fenye">
+            <a href="javascript:;" class="pageup" onclick="pageUpOrDown('up')"> &lt;上一页 </a>
+            <div class="showPage">
+              <a href="javascript:;" class="active">1</a>
+              <a href="javascript:;">2</a>
+              <a href="javascript:;">3</a>
+              <a href="javascript:;">4</a>
+              <a href="javascript:;">5</a>
+              <a href="javascript:;">6</a>
+              <a href="javascript:;">7</a>
+              <a href="javascript:;">8</a>
+              <a href="javascript:;">9</a>
+              <a href="javascript:;">10</a>
+              <span>...</span>
+            </div>
+            <a href="javascript:;" class="pagedown" onclick="pageUpOrDown('down')"> &gt;下一页 </a>
+          </div>
+
+        </div>
+        <div class="service-right">
+          <div class="server-advertisement">
+            <a href="javascript:;">
+              <div class="adver-container adver1">
+                <img src="http://www.daoway.cn/pcimages/daowayApp.png" alt="fuwu">
+              </div>
+            </a>
+            <a href="javascript:;">
+              <div class="adver-container adver2">
+                <img src="http://www.daoway.cn/pcimages/daowayApp.png" alt="">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--底部-->
+    <div class="baozhang">
+      <div class="baozhang-title">
+        到位<span>保障</span>服务
+      </div>
+      <p>到位平台担保交易安全，交易未成功100%退款</p>
+      <div class="servi">
+        <ul class="servi-list">
+          <li class="servi-item">
+            <img src="http://www.daoway.cn/pcimages/anquan.jpg" alt="servi">
+            <span>优选服务</span>
+          </li>
+          <li class="servi-item">
+            <img src="http://www.daoway.cn/pcimages/anquan.jpg" alt="servi">
+            <span>全程保障</span>
+          </li>
+          <li class="servi-item">
+            <img src="http://www.daoway.cn/pcimages/anquan.jpg" alt="servi">
+            <span>安全无忧</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerContainer">
+      <div class="footer-city">
+        <div class="hotCity">热门城市</div>
+        <div class="citiesName">
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+          <a href="javascript:;">北京</a>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      ©2015 版权所有 到位 daoway.com 京ICP备15001471号-1 北京邻家科技有限公司
+    </div>
+    </div>
+<script id="temp1" type="text/html">
+  <div class="htit-left">
           <span>
-            <span class="business">云家政</span>
+            <span class="business">{{data.item.title}}</span>
             <span class="business">营业时间：</span>
             <span class="business">09:00-18:00</span>
           </span>
-          <span >
+          <span>
             <span class="subscribe">最近可预约时间</span>
             <span class="subscribe">03月22日 09:00</span>
           </span>
+  </div>
+  <div class="htit-right">
+    <div class="order-left">
+      <span class="topNumber">{{data.item.orderCount}}</span>
+      <span class="bottText">成功接单</span>
+      <span class="verticalLine">|</span>
+    </div>
+    <div class="order-center">
+      <span class="topNumber">{{data.item.accept}}</span>
+      <span class="bottText">接单率</span>
+      <span class="verticalLine">|</span>
+    </div>
+    <div class="order-right">
+      <span class="topNumber">{{data.item.praise}}</span>
+      <span class="bottText">好评率</span>
+    </div>
+  </div>
+</script>
+<script id="temp2" type="text/html">
+  <div class="family-inner">
+    <div class="inner-left">
+      <div class="inner-img">
+        <img src="{{data.item.imgUrl}}" alt="">
+        <div class="family-detail">
+          <p class="firstItem">{{data.item.name}}</p>
+          <p class="secondItem">{{data.item.desc}}
+          </p>
+          <div class="family-price">
+            <div>
+              <span class="price-number">{{data.item.price}}</span>
+              <span class="price-time">元/小时</span>
+              <span class="origin-price">原价<span class="origin-price-number">{{data.item.oldPrice}}</span></span>
+            </div>
+          </div>
         </div>
-        <div class="htit-right">
-          <div class="order-left">
-            <span class="topNumber">45658</span>
-            <span class="bottText">成功接单</span>
-          </div>
-          <div class="order-center">
-            <span class="topNumber">94%</span>
-            <span class="bottText">接单率</span>
-          </div>
-          <div class="order-right">
-            <span class="topNumber">86%</span>
-            <span class="bottText">好评率</span>
-          </div>
-        </div>
+
       </div>
+      <div class="inner-sale">已售<span>{{data.item.soldCount}}</span></div>
+    </div>
+    <div class="inner-right">
+    </div>
+  </div>
+</script>
+<script id="temp3" type="text/html">
+  <div class="company">
+    <span>{{data.item.company}}</span>
+    <img src="http://www.daoway.cn/pcimages/renzheng.jpg" alt="">
+  </div>
+  <div class="profile">
+    {{data.item.profile}}
+  </div>
+</script>
+<script id="temp4" type="text/html">
+  {{each data.comments}}
+  <div class="commentItem">
+    <span>
+      <img src="{{$value.iconUrl}}" alt="">
+    </span>
+    <div class="comentsList">
+      <div>{{$value.nick}}</div>
+      <div>
+        <span class="starImgs">
+          {{each $value.starsUrl}}
+          <img src="{{$value}}" alt="">
+          {{/each}}
+        </span>
+        <span>{{$value.createtime|dateFormat}}</span>
+      </div>
+      <div>{{$value.comment}}</div>
+      <div class="location">
+        <img src="http://www.daoway.cn/pcimages/position.jpg" alt="">
+        <span>{{$value.city}} {{$value.area}}</span>
       </div>
     </div>
+  </div>
+  {{/each}}
+</script>
+<script type="text/javascript">
+  var page = 1
+  var $pages = $('.showPage >a')
+  $(function () {
+    $.get('/getServiceItem?id=1001',function (data) {
+      $('.htit').append(template('temp1',{data:data}))
+      $('.family').append(template('temp2',{data:data}))
+      $('.shopInfo').append(template('temp3',{data:data}))
+    })
+
+    $.get('/getComments?page='+page,function (data) {
+      setStar(data)
+      $('.commentDiv').html(template('temp4',{data:data}))
+    })
+
+
+    $pages.click(function () {
+      $pages.removeClass('active')
+      $(this).addClass('active')
+      var $index=$(this).index()
+      page = ++$index
+      $.get('/getComments?page='+page,function (data) {
+        setStar(data)
+        setDate(data)
+        $('.commentDiv').html(template('temp4',{data:data}))
+      })
+    })
+  })
+
+  function pageUpOrDown(type) {
+    if (type=='up'){
+      page --
+      if (page<=1){
+        page = 1
+        return
+      }
+      $.get('/getComments?page='+page,function (data) {
+        setStar(data)
+        setDate(data)
+        $('.commentDiv').html(template('temp4',{data:data}))
+      })
+    }else if(type=='down'){
+      page ++
+      if (page>9){
+        page = 9
+        return
+      }
+      $.get('/getComments?page='+page,function (data) {
+        setStar(data)
+        setDate(data)
+        $('.commentDiv').html(template('temp4',{data:data}))
+      })
+    }
+  }
+/*星星动态显示*/
+  function setStar(data) {
+    for (var i=0;i<data.comments.length;i++){
+      const count = data.comments[i].star
+      let starArr = []
+      if (count===5){
+        for (var j=0;j<count;j++){
+          starArr.push('http://www.daoway.cn/pcimages/red_star.png')
+        }
+        data.comments[i].starsUrl = starArr
+      }else if (count<5){
+        starArr = []
+        for (var j=0;j<count;j++){
+          starArr.push('http://www.daoway.cn/pcimages/red_star.png')
+        }
+        for (var k=0;k<5-count;k++){
+          starArr.push('http://www.daoway.cn/pcimages/gray_star.png')
+        }
+        data.comments[i].starsUrl = starArr
+      }
+    }
+  }
+/*时间格式*/
+  function setDate(data) {
+    template.defaults.imports.dateFormat = function(date, format='YYYY-MM-DD'){
+      return moment(date).format(format)
+    }
+  }
+
+
+</script>
 </body>
 </html>

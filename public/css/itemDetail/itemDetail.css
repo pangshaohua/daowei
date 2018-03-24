@@ -1,0 +1,431 @@
+#itemDetail {
+  width: 100%;
+  position: relative;
+  height: 20000;
+  background: #fbf8f8;
+}
+#itemDetail .wrapper-header {
+  width: 100%;
+  height: 70px;
+  background: #fff;
+}
+#itemDetail .wrapper-header .header-content {
+  margin: 0 auto;
+  width: 87%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+#itemDetail .wrapper-header .header-content .header-logo {
+  width: 280px;
+  height: 40px;
+}
+#itemDetail .wrapper-header .header-content .header-nav {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 100%;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-address {
+  display: flex;
+  flex: 1;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-address a img {
+  display: block;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-address .address-city {
+  font-size: 17px;
+  color: #121212;
+  font-weigh: bold;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-address .switch-city {
+  font-size: 17px;
+  color: #121212;
+  font-weigh: bold;
+  padding-left: 5px;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu {
+  flex: 3;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #121212;
+  transition: color 0.5s;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item a:hover {
+  color: #f00;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .shouye {
+  color: #f00;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .login {
+  color: #fff;
+  background: #f00;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+#itemDetail .wrapper-header .header-content .header-nav .nav-menu .menu-list .menu-item .login:hover {
+  color: #fff;
+}
+#itemDetail .service-center {
+  width: 100%;
+  height: 85px;
+}
+#itemDetail .service-center .service-name {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 85px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#itemDetail .service-content {
+  width: 100%;
+  margin-bottom: 60px;
+}
+#itemDetail .service-content .content-detail {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+#itemDetail .service-content .content-detail .service-left {
+  flex: 4;
+  margin-right: 10px;
+}
+#itemDetail .service-content .content-detail .service-left .family {
+  width: 100%;
+  height: 200px;
+  background: #fff;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner {
+  width: 100%;
+  height: 100%;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img {
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img img {
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+  display: block;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail {
+  height: 100%;
+  margin-top: 25px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .firstItem {
+  height: 42px;
+  line-height: 42px;
+  font-size: 20px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .secondItem {
+  color: #929292;
+  height: 42px;
+  font-size: 14px;
+  line-height: 42px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .family-price {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .family-price .price-number {
+  color: #fc545e;
+  font-size: 30px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .family-price .price-time {
+  color: #fc545e;
+  font-size: 14px;
+  font-weight: 700;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .family-price .origin-price {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 20px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-img .family-detail .family-price .origin-price .origin-price-number {
+  text-decoration: line-through;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-sale {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-sale .saoyisao {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-sale .yuyue {
+  color: #fb474f;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+}
+#itemDetail .service-content .content-detail .service-left .family .family-inner .inner-left .inner-sale img {
+  width: 130px;
+  height: 130px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo {
+  margin-top: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem {
+  padding-top: 25px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .titleText {
+  background: #fff;
+  width: 100%;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .titleText .service-title {
+  width: 95%;
+  height: 28px;
+  margin: 0 auto;
+  line-height: 28px;
+  color: #121212;
+  box-sizing: border-box;
+  background: #fff;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .titleText .title-container {
+  width: 74px;
+  height: 41px;
+  padding: 5px;
+  border-bottom: 3px solid #fb474f;
+  font-weight: 700;
+  font-size: 15px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .titleText .commentCount {
+  color: #121212;
+  font-size: 14px;
+  margin-left: 15px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .profile {
+  margin: 10px 25px 0px;
+  font-size: 14px;
+  height: 420px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItem .profile pre {
+  line-height: 24px;
+  margin: 15px 0 0;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext {
+  width: 100%;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle {
+  width: 90%;
+  margin: 10px 10px 0px 25px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle p {
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  height: 24px;
+  padding: 10px 0;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle p >span:nth-child(2) {
+  margin-left: 15px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle p >span:nth-child(3) {
+  color: #f00;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle >span {
+  display: block;
+  padding: 3px;
+  width: 66px;
+  height: 20px;
+  border-bottom: 3px solid #fb474f;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .infoItemTitle pre {
+  line-height: 24px;
+  font-size: 14px;
+  height: 120px;
+  padding: 9px;
+}
+#itemDetail .service-content .content-detail .service-left .shopInfo .infoItemNext .first pre {
+  background: #fffcf1;
+}
+#itemDetail .service-content .content-detail .service-right {
+  display: flex;
+  flex: 1;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a {
+  display: block;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver-container {
+  width: 100%;
+  height: 100%;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver-container .advertisement-title {
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  background: #fff;
+  color: #121212;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver1 {
+  margin-bottom: 10px;
+  height: 356px;
+  background: #fff;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver1 >img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver1 .centerText {
+  color: #121212;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver1 p {
+  width: 228px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver1 p >span:nth-child(2) {
+  color: #f00;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver2 {
+  width: 230px;
+  height: 300px;
+  background-image: url("http://www.daoway.cn/pcimages/tuijianfuwushang_06.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 230px 300px;
+  overflow: hidden;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver2 >img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  margin: 50px 0 0 50px;
+}
+#itemDetail .service-content .content-detail .service-right .server-advertisement a .adver-container::hover {
+  box-shadow: 5px 5px 15px #ccc;
+}
+#itemDetail .baozhang {
+  width: 100%;
+  height: 148px;
+  background: #fff;
+  padding-top: 60px;
+  text-align: center;
+}
+#itemDetail .baozhang .baozhang-title {
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: 800;
+}
+#itemDetail .baozhang .baozhang-title span {
+  color: #fb474f;
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: 800;
+}
+#itemDetail .baozhang p {
+  font-size: 22px;
+  color: #3d3838;
+  padding-top: 10px;
+}
+#itemDetail .baozhang .servi {
+  padding-top: 20px;
+}
+#itemDetail .baozhang .servi .servi-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#itemDetail .baozhang .servi .servi-list .servi-item {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+#itemDetail .baozhang .servi .servi-list .servi-item img {
+  display: block;
+}
+#itemDetail .baozhang .servi .servi-list .servi-item span {
+  padding-left: 3px;
+  font-size: 18px;
+}
+#itemDetail .footerContainer {
+  width: 100%;
+  background: #fff;
+  height: 120px;
+  padding-top: 50px;
+}
+#itemDetail .footerContainer .footer-city {
+  margin: 0 auto;
+  width: 87%;
+  display: flex;
+}
+#itemDetail .footerContainer .footer-city .hotCity {
+  flex: 1;
+  font-size: 19px;
+  font-weight: 800;
+}
+#itemDetail .footerContainer .footer-city .citiesName {
+  flex: 9;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+#itemDetail .footerContainer .footer-city .citiesName a {
+  flex: 0 0 9%;
+  width: 9%;
+  color: #898989;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: "微软雅黑";
+  height: 30px;
+}
+#itemDetail .copy {
+  width: 87%;
+  margin: 0 auto;
+  height: 40px;
+  line-height: 40px;
+  color: #898989;
+  font-size: 16px;
+}

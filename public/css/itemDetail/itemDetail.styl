@@ -1,7 +1,8 @@
-#serverItem
+#itemDetail
   width 100%
   position relative
   height 20000
+  background #fbf8f8
   .wrapper-header
     width 100%
     height 70px
@@ -61,79 +62,18 @@
                 border-radius 3px
               .login:hover
                 color #fff
-  .serverItem-content
+  .service-center
     width 100%
-    margin-top 10px
-    background #fff
-    .htit
+    height 85px
+    .service-name
       width 90%
-      height 140px
+      height 100%
       margin 0 auto
-      display flex
-      .htit-left
-        flex 1
-        height 100%
-        box-sizing border-box
-        line-height 170px
-        font-size 14px
-        .business:nth-child(1)
-          font-size 36px
-          font-weight 700
-        .business:nth-child(2)
-          margin-left 10px
-          color #929292
-        .business:nth-child(3)
-          color #121212
-        .subscribe:first-child
-          margin-left 10px
-          color #929292
-        .subscribe:last-child
-          color #e84b47
-      .htit-right
-        flex 1
-        height 100%
-        display flex
-        justify-content flex-end
-        div
-          display flex
-          flex-direction column
-          margin-top 70px
-          width 100px
-          height 44px
-          position relative
-          .topNumber
-            color #e84b47
-            text-align center
-            margin-bottom 7px
-            font-size 14px
-          .bottText
-            text-align center
-            font-size 14px
-          .verticalLine
-            position absolute
-            top 10px
-            right 5px
-            margin auto 0
-            color #e5e5e5
-    .nav-menu
-      width 100%
-      background #323434
-      .nav-list
-        width 90%
-        margin 0 auto
-        height 40px
-        display flex
-        .nav-item
-          width 140px
-          height 40px
-          color #fff
-          line-height 40px
-          text-align center
-        :nth-child(1)
-          background #424242
+      line-height 85px
+      font-size 18px
+      font-weight bold
   .service-content
     width 100%
-    margin-top 22px
     margin-bottom 60px
     .content-detail
       width 90%
@@ -142,27 +82,6 @@
       .service-left
         flex 4
         margin-right 10px
-        .titleText
-          background #ffffff
-          width 100%
-          .service-title
-            width 95%
-            height 60px
-            margin 0 auto
-            line-height 60px
-            color #121212
-            box-sizing border-box
-            border-bottom 1px solid #e5e5e5
-            background #ffffff
-          .title-container
-            width 64px
-            height 39px
-            padding-bottom 16px
-            border-bottom 3px solid red
-          .commentCount
-            color #121212
-            font-size 14px
-            margin-left 15px
         .family
           width 100%
           height 200px
@@ -214,100 +133,91 @@
                       .origin-price-number
                         text-decoration line-through
               .inner-sale
-                height 100%
-                margin-top 150px
-                padding-right 80px
-                color #929292
-                font-size 14px
+                height 200px
+                display flex
+                flex-direction column
+                justify-content center
+                align-items center
+                padding-right 40px
+                .saoyisao
+                  font-size 16px
+                  line-height 20px
+                  font-weight bold
+                .yuyue
+                  color #fb474f
+                  font-size 16px
+                  line-height 30px
+                  font-weight bold
+                img
+                  width 130px
+                  height 130px
         .shopInfo
-          margin-top 70px
-          background #ffffff
-          overflow hidden
-          .company
-            height 40px
-            line-height 40px
-            font-size 18px
-            margin 10px 25px
-            img
-              vertical-align middle
-          .profile
-            line-height 28px
-            margin  10px 25px 25px
-            font-size 16px
-            height 112px
-        .userComment
-          width 100%
           margin-top 10px
           background #ffffff
-          .commentDiv
-            width 90%
-            margin 0 auto
-            .commentItem
+          overflow hidden
+          .infoItem
+            padding-top 25px
+            .titleText
+              background #ffffff
               width 100%
-              display flex
-              padding-top 20px
-              border-bottom 1px solid #e5e5e5
-              span
-                img
-                  width 40px
-                  height 40px
-              .comentsList
-                margin-left 20px
-                div
-                  width 100%
-                  height 28px
-                  line-height 28px
-                  .starImgs
-                    img
-                      width 10px
-                      height 10px
-                      vertical-align middle
-                .location
-                  height 40px
-                  color #898989
-                  img
-                    margin-right 10px
-                    vertical-align middle
-                  span
-                    font-size 14px
-        .fenye
-          width 100%
-          margin 0 auto
-          height 152px
-          text-align center
-          background #ffffff
-          display flex
-          align-items center
-          justify-content center
-          .pageup
-            width 80px
-            height 30px
-            line-height 30px
-            border-radius 0
-            font-size 14px
-            color #929292
-            border 1px solid #929292
-          .showPage
-            width 470px
-            display flex
-            justify-content space-around
-            a
-              width 32px
-              height 30px
-              line-height 30px
+              .service-title
+                width 95%
+                height 28px
+                margin 0 auto
+                line-height 28px
+                color #121212
+                box-sizing border-box
+                background #ffffff
+              .title-container
+                width 74px
+                height 41px
+                padding 5px
+                border-bottom 3px solid #fb474f
+                font-weight 700
+                font-size 15px
+              .commentCount
+                color #121212
+                font-size 14px
+                margin-left 15px
+            .profile
+              margin  10px 25px 0px
               font-size 14px
-              color #121212
-              border 1px solid #e5e5e5
-            .active
-              background red
-          .pagedown
-            width 80px
-            height 30px
-            line-height 30px
-            border-radius 0
-            font-size 14px
-            color #929292
-            border 1px solid #929292
+              height 420px
+              pre
+                line-height 24px
+                margin 15px 0 0
+          .infoItemNext
+            width 100%
+            .infoItemTitle
+              width 90%
+              margin 10px 10px 0px 25px
+              p
+                width 100%
+                line-height 24px
+                font-size 14px
+                height 24px
+                padding 10px 0
+                >span:nth-child(2)
+                  margin-left 15px
+                >span:nth-child(3)
+                  color red
+              >span
+                display block
+                padding 3px
+                width 66px
+                height 20px
+                border-bottom 3px solid #fb474f
+                font-size 14px
+                font-weight bold
+                text-align center
+              pre
+                line-height 24px
+                font-size 14px
+                height 120px
+                padding 9px
+            .first
+              pre
+                background #fffcf1
       .service-right
         display flex
         flex 1
@@ -320,20 +230,42 @@
             .adver-container
               width 100%
               height 100%
+              .advertisement-title
+                font-size 20px
+                padding-left 10px
+                border-bottom 1px solid #e5e5e5
+                height 60px
+                line-height 60px
+                text-align left
+                background #ffffff
+                color #121212
             .adver1
-              width 230px
-              height 300px
-              background-image url("http://www.daoway.cn/pcimages/fuwushang2_07.jpg")
-              background-repeat no-repeat
-              background-position center center
-              background-size 230px 300px
-              overflow hidden
               margin-bottom 10px
+              height 356px
+              background #fff
               >img
                 display block
-                width 130px
-                height 130px
-                margin 50px 0 0 50px
+                width 80px
+                height 80px
+                text-align center
+                margin 0 auto
+                padding-top 40px
+                margin-bottom 10px
+              .centerText
+                color #121212
+                font-size 18px
+                font-weight bold
+                text-align center
+                margin-bottom 20px
+              p
+                width 228px
+                height 36px
+                line-height 36px
+                padding 0 10px
+                display flex
+                justify-content space-between
+                >span:nth-child(2)
+                  color red
             .adver2
               width 230px
               height 300px
